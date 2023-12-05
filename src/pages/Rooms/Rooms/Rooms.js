@@ -41,7 +41,7 @@ function Rooms ({navigation}) {
         const userMail = auth().currentUser.email
         const contentList={
         roomName : content,
-        userName: userMail.split(('@'),[0]),
+        userName: userMail.split('@')[0],
         date : new Date().toISOString()
     }
         return(
