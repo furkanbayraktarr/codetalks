@@ -34,36 +34,5 @@ export default StyleSheet.create({
         margin:3
 
     },
-    dislike_container:{
-        flexDirection:"row",
-        justifyContent:"space-between",
-        backgroundColor:"white",
-        borderRadius:12,
-        marginLeft:290,
-        margin:5,
-        padding:3
-        
-
-    },
-    dislike_count_container:{
-        padding:2,
-        backgroundColor:colors.darkorange,
-        borderRadius:10,
-        justifyContent:"center"
-
-    },
-    dislike_count_text:{
-        fontSize:12,
-        fontWeight:"bold",
-        color:"white",
-        
-       
-    },
-    dislike_text:{
-        fontSize:15,
-        padding:2,
-        fontWeight:"bold",
-        color:colors.darkorange
-        
-    }
+    
 })
